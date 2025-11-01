@@ -1,0 +1,4 @@
+ profile = {"name": "Sita", "age": 21}
+ # Add new key-value pair
+ profile["college"] = "IIT Delhi"
+ print("Updated Dictionary:", profile)
