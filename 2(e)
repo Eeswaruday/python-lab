@@ -1,0 +1,9 @@
+lst = [10, 20, 30, 40]
+ # Addition (append)
+ lst.append(50)
+ print("After addition:", lst)
+ # Insertion
+ lst.insert(2, 25)
+ print("After insertion at index 2:", lst)
+ # Slicing
+ print("Slicing from index 1 to 4:", lst[1:5])
