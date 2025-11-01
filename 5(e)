@@ -1,0 +1,4 @@
+print("Minimum:", arr.min())
+ print("Maximum:", arr.max())
+ print("Sum:", arr.sum())
+ print("Cumulative sum:\n", np.cumsum(arr))
