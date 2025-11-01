@@ -1,0 +1,11 @@
+ arr = [10, 20, 30]
+ print("Original array:", arr)
+ # Append
+ arr.append(40)
+ print("After append:", arr)
+ # Insert
+ arr.insert(2, 25)
+ print("After insert at index 2:", arr)
+ # Reverse
+ arr.reverse()
+ print("After reverse:", arr)
