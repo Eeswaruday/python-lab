@@ -1,0 +1,5 @@
+ print("Slice:\n", arr[:, 1]) # all rows index 1
+ # Integer indexing
+ print("Integer index:", arr[1, 0]) # 2nd row 1st column
+ # Boolean indexing
+ print("Greater than 2:\n", arr[arr > 2])
