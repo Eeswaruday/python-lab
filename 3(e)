@@ -1,0 +1,3 @@
+marks = {"Math": 85, "Physics": 90, "Chemistry": 80}
+total = sum(marks.values())
+ print("Total Marks:", total)
