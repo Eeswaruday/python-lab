@@ -1,0 +1,9 @@
+import json
+ def contains_complex(json_str):
+ try:
+ obj = json.loads(json_str)
+ return any(isinstance(v, complex) for v in obj.values())
+ except:
+ return False
+ # Example
+ print(contains_complex('{"a": 2, "b": 3+4j}'))
