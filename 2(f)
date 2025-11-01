@@ -1,0 +1,7 @@
+ lst = [4, 2, 9, 1, 5]
+ print("Original list:", lst)
+ print("Length:", len(lst))
+ print("Maximum:", max(lst))
+ print("Minimum:", min(lst))
+ print("Sorted list:", sorted(lst))
+ print("Sum:", sum(lst))
