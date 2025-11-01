@@ -1,0 +1,6 @@
+student1 = ("Krisna", 20, "Guntur", "NRIIT")
+ student2 = ("Rahul", 22, "Ongole", "RVRJCCE")
+ # Concatenating tuples
+ combined = student1 + student2
+ # Printing result
+ print("Concatenated Tuple:", combined)
