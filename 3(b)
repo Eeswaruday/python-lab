@@ -1,0 +1,5 @@
+ s = "Artificial Intelligence"
+ vowels = 'aeiouAEIOU'
+ # Count vowels using map and lambda
+ count = sum(map(lambda c: c in vowels, s))
+ print("Number of vowels:", count)
