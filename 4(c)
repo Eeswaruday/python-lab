@@ -1,0 +1,8 @@
+ with open("input.txt", "r") as file:
+ text = file.read()
+ lines = text.splitlines()
+ words = text.split()
+ chars = len(text)
+ print("Lines:", len(lines))
+ print("Words:", len(words))
+ print("Characters:", chars)
