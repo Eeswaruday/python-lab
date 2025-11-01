@@ -1,0 +1,4 @@
+ print("Dimensions:", arr.ndim)
+ print("Shape:", arr.shape)
+ print("Size:", arr.size)
+ print("Data type:", arr.dtype)
