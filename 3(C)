@@ -1,0 +1,7 @@
+ data = {"name": "John", "age": 25, "city": "Hyderabad"}
+ # Check key existence
+ key = "age"
+ if key in data:
+ print(f"Key '{key}' exists in the dictionary.")
+ else:
+ print(f"Key '{key}' does not exist.")
