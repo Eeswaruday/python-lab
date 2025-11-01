@@ -1,0 +1,15 @@
+def operations(a, b):
+ add = a + b
+ sub = a-b
+ mul = a * b
+ div = a / b
+ quo = a // b
+ rem = a % b
+ return add, sub, mul, div , quo, rem
+ u, v, w, x, y, z = operations(17, 5)
+ print("Addition:", u)
+ print("Addition:", v)
+ print("Subtraction:", w)
+ print("Multiplication: ", x)
+ print("Division: ", y)
+ print("Remainder: ", z)
