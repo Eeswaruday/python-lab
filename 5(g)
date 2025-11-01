@@ -1,0 +1,7 @@
+ import matplotlib.pyplot as plt
+ plt.scatter(df["Age"], df["Score"])
+ plt.xlabel("Age")
+ plt.ylabel("Score")
+ plt.title("Age vs Score")
+ plt.grid(True)
+ plt.show()
