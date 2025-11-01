@@ -1,0 +1,6 @@
+with open("input.txt", "r") as infile:
+ words = infile.read().lower().split()
+ words.sort()
+ with open("output.txt", "w") as outfile:
+ outfile.write(" ".join(words))
+ print("Words sorted and written to output.txt")
